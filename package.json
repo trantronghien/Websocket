@@ -1,0 +1,16 @@
+{
+  "name": "node-websocket",
+  "version": "1.0.0",
+  "description": "d",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js"
+  },
+  "author": "Tran Trong Hien",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "websocket": "^1.0.28"
+  }
+}
