@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
- 
-	"start": "node ping-heroku.js"
+	"start": "node ping-heroku.js",
+	"postinstall": "npm run tsc"
   },
   "author": "Tran Trong Hien",
   "license": "ISC",
