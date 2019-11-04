@@ -33,4 +33,4 @@ client.on('connect', function(connection) {
     sendNumber();
 });
  
-client.connect('ws://websocketdemo.herokuapp.com:3417');
+client.connect('ws://websocketdemo.herokuapp.com');

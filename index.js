@@ -16,8 +16,10 @@ var server = http.createServer(function(request, response) {
     response.writeHead(200);
     response.end();
 });
-server.listen(process.env.PORT , function() {
-  console.log(" Server is listening on port "+ process.env.PORT);
+var PORT = process.env.PORT || 3000;
+
+server.listen( PORT , function() {
+  console.log(" Server is listening on port "+ PORT);
 });
 /**
  * WebSocket server
