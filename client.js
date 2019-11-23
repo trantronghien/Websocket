@@ -30,7 +30,9 @@ client.on('connect', function(connection) {
             setTimeout(sendNumber, 6000);
         }
     }
-    sendNumber();
+    // sendNumber();
 });
  
-client.connect('ws://websocketdemo.herokuapp.com');
+// client.connect('ws://websocketdemo.herokuapp.com');
+var chanel = 'echo-protocol';
+client.connect('ws://localhost:1337', null);
